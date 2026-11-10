@@ -1,0 +1,36 @@
+# ==========================================
+# .gitignore — Taranis Black Playbook Deck
+# ==========================================
+
+# Arquivos de Sistema Operacional
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Pastas e arquivos temporários / de teste
+Prints_Tests/
+temp/
+temp*/
+*.tmp
+*.log
+*.bak
+
+# Python / Scripts de automação
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
